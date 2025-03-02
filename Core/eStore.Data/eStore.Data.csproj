@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>eStore.Data</RootNamespace>
+        <AssemblyName>eStore.Data</AssemblyName>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>        
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\eStore.Core\eStore.Core.csproj" />
+    </ItemGroup>
+
+</Project>
